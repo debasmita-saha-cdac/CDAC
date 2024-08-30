@@ -16,6 +16,9 @@ sed -n '12,22p'
 q. print last 20 character
 a. tail -c 20
 
+q. sort number - decending order
+a. sort -n -r
+
 q. cat file1.txt file2.txt | sort | uniq
 
 
