@@ -3,6 +3,11 @@ https://www.baeldung.com/linux/bash-extract-last-n-characters#:~:text=Using%20ta
 ##Q. replace multiple spaces -> one space:
 link: https://collectingwisdom.com/sed-replace-multiple-spaces-with-one/#:~:text=In%20this%20particular%20example%2C%20we,all%20occurrences%20of%20multiple%20spaces.
 a.   sed 's/  */ /g'
+## sort column
+https://en.wikipedia.org/wiki/Sort_%28Unix%29
+ans: sort -n -k2 -r -t $'\t'
+
+
 
 
 q. print first 20 line
