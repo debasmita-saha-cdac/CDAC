@@ -1,12 +1,18 @@
 ## How to Extract the Last n Characters of a String in Bash:
-
 https://www.baeldung.com/linux/bash-extract-last-n-characters#:~:text=Using%20tail&text=read%20each%20line%20of%20the,only%20the%20last%20three%20characters
+##Q. replace multiple spaces -> one space:
+link: https://collectingwisdom.com/sed-replace-multiple-spaces-with-one/#:~:text=In%20this%20particular%20example%2C%20we,all%20occurrences%20of%20multiple%20spaces.
+a.   sed 's/  */ /g'
 
 
 q. print first 20 line
 head -20
 Q. Display the lines (from line number 12 to 22, both inclusive) of a given text file.
-head -22 |  tail -11
+ans:
+head -22 |  tail -11 
+or,
+sed -n '12,22p'
+
 q. print last 20 character
 a. tail -c 20
 
