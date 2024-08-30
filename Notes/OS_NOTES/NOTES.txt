@@ -3,3 +3,7 @@
 https://www.baeldung.com/linux/bash-extract-last-n-characters#:~:text=Using%20tail&text=read%20each%20line%20of%20the,only%20the%20last%20three%20characters
 
 
+Q. Display the lines (from line number 12 to 22, both inclusive) of a given text file.
+head -22 |  tail -11
+
+
