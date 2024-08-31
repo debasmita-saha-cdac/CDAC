@@ -1,5 +1,8 @@
 ## How to Extract the Last n Characters of a String in Bash:
 https://www.baeldung.com/linux/bash-extract-last-n-characters#:~:text=Using%20tail&text=read%20each%20line%20of%20the,only%20the%20last%20three%20characters
+
+# giving permission
+link : https://www.pluralsight.com/blog/it-ops/linux-file-permissions
 ##Q. replace multiple spaces -> one space:
 link: https://collectingwisdom.com/sed-replace-multiple-spaces-with-one/#:~:text=In%20this%20particular%20example%2C%20we,all%20occurrences%20of%20multiple%20spaces.
 a.   sed 's/  */ /g'
