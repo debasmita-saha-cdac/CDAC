@@ -1,0 +1,24 @@
+PG-DAC  AUGUST 24 BATCH
+
+
+
+1)Write a Java program that takes a list of integers as input and returns a list of duplicate integers.
+
+
+
+2)Create a Person class with attributes name and age. Write a Java program that sorts a list of Person objects first by age and then by name if the ages are equal.
+
+
+
+3)Write a Java program to find the first non-repeated character in a string using a HashMap.
+
+
+String input = "aabbccddeffg";
+Expected output = 'e';
+
+
+
+4) Write a Java program that merges two sorted lists of integers into a single sorted list.
+
+
+5) Input: “abbaycaxy” 	Output: “abcxy” (Represents only unique idea)
